@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "A Todo App where you can add your tasks and assign various label on it.",
+  "description": "A Todo App where you can add your tasks and assign various labels to it.",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
