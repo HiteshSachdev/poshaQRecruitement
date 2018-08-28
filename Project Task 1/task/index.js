@@ -1,3 +1,4 @@
+// Importing required modules.
 const _ = require('lodash');
 const mongoose = require('mongoose');
 const Task = require('./models/tasks');
@@ -47,4 +48,5 @@ const submission = async (client, dbName, collectionName, bucketSize) => {
     // END your code  
   };
 
+// Calling Method.
   submission("mongodb://taskUser:taskUser1234@ds235352.mlab.com:35352/", "task", "task", bucketSize);
