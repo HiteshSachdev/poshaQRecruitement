@@ -1,4 +1,4 @@
-//Exporting required modules.
+//Importing required modules.
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
@@ -18,7 +18,7 @@ var db = mongoose.connection;
 // Check everytime if error occurs or not.
 db.on("error", console.error.bind(console, "connection error"));
 
-// Check for once only if connection is open.
+// Check for once only whether the connection is open or not.
 db.once("open", function (callback) {
     console.log("Connection Succeeded");
 });
